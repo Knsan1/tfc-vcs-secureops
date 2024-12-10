@@ -1,5 +1,14 @@
 ## This Terraform code can use to create Organization, Project and Workspaces[Connect to Github Repo] in Terraform Cloud(TFC)
 ### Need to export TFC and Github Token as ENV variable for VCS WorkFlow
+## Github Account Token
+```
+![GitHub Token Image](images/github_token_require_permission.png)
+```
+## TFC Token
+```
+![TFC Token Image](images/created_vcs_profider_on_tfc_side.png)
+```
+
 ```
 ## Github account Token(classic) Full Repo Access
 $ export TF_VAR_github_oauth_token="ghpxxxxxxxxxxxxxx"
